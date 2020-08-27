@@ -105,7 +105,9 @@ class CKEditorSandbox extends Component {
 
             removeButtons: 'Underline,Subscript,Superscript,Maximize',
             resize_enabled: false,
-            height: initialHeight
+            height: initialHeight,
+            fullPage: true,
+            allowedContent: true
         };
 
         return (
